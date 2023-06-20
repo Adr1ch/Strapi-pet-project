@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_articles_blocks",
+  "info": {
+    "displayName": "articlesBlock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "articlesList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.article"
+    },
+    "title": {
+      "type": "string"
+    },
+    "intro": {
+      "type": "richtext"
+    }
+  }
+}

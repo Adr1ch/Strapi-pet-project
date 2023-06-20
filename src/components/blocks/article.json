@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_articles",
+  "info": {
+    "displayName": "ArticleItem",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "article": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article"
+    }
+  }
+}

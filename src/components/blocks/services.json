@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blocks_services",
+  "info": {
+    "displayName": "services",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "intro": {
+      "type": "richtext"
+    },
+    "servicesList": {
+      "displayName": "Card",
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.card"
+    }
+  }
+}

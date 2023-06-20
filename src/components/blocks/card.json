@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_blocks_cards",
+  "info": {
+    "displayName": "Card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "intro": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "cardLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.link"
+    }
+  }
+}
